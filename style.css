@@ -45,3 +45,40 @@ label{
   font-weight: bold;
 }
 
+ol > li {
+font-weight: bold;
+}
+p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav-quiz{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link-quiz{
+  color: black;
+  transition: 0.3s;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.link-quiz:hover{
+  padding: 15px;
+  background-color: gray;
+  color: white;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.nav-quiz li{
+  list-style: none;
+}
+
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
