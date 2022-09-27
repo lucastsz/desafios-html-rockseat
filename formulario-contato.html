@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafios HTML</title>
+    <meta name="description" content="Exercícios básico sobre HTML" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <ul>
+          <a href="index.html"> <li>Início</li> </a>
+          <a href="glossario.html"> <li>Glossário</li> </a>
+          <a href="formulario-contato.html"> <li>Formulário de Contato</li> </a>
+          <a href="lista-compras.html"> <li>Lista de Compras</li> </a>
+          <a href="quiz.html"> <li>Quiz</li> </a>
+          <a href="blog-post.html"> <li>Blog Post</li> </a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <fieldset>
+        <legend>Entre em contato</legend>
+        <form>
+          <br />
+          <label for="assunto">Assunto: </label>
+          <select name="assunto" id="assunto">
+            <option value="Suporte">Suporte</option>
+            <option value="Sugestão">Sugestão</option>
+            <option value="Reclamação">Reclamação</option>
+          </select>
+          <br />
+          <br />
+          <label for="nome">Nome Completo:</label>
+          <br />
+          <input type="text" name="nome" id="nome" placeholder="Seu nome" />
+          <br />
+          <br />
+          <label for="email">E-mail:</label>
+          <br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="email@soudominio.com"
+          />
+          <br />
+          <br />
+          <label for="mensagem">Mensagem:</label>
+          <br />
+          <textarea name="mensagem" id="" cols="30" rows="10"></textarea>
+          <br />
+          <br />
+          <input type="checkbox" name="aceito" id="aceito" value="aceito" />
+          Aceito receber novidades por e-mail
+        </form>
+        <br />
+        <button type="button">Enviar</button>
+      </fieldset>
+    </main>
+  </body>
+  <link rel="stylesheet" href="style.css" />
+</html>
